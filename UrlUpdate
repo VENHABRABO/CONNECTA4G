@@ -1,5 +1,5 @@
 {
-  "Version": "4.0",
+  "Version": "5.0",
   "ReleaseNotes": "@VEM_BRABO\nconfig 4.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -126,26 +126,6 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "💜VIVO [DIRECT 1]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.64.195.2",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "💜VIVO [DIRECT 2]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.24.11.16",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
       "Name": "💜VIVO [SSL 1]",
       "FLAG": "vivo",
       "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -198,26 +178,6 @@
     {
       "Name": "💜VIVO [SSL 6]",
       "FLAG": "vivo",
-      "Payload": "GET wss://experiências.fanfest.xbox.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "experiências.fanfest.xbox.com",
-      "TlsIP": "104.24.25.34",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "💜VIVO [SSL 7]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://support.uptodown.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "support.uptodown.com",
-      "TlsIP": "162.159.136.63",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "💜VIVO [SSL 8]",
-      "FLAG": "vivo",
       "Payload": "GET wss://support.pokemon.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "support.pokemon.com",
       "TlsIP": "172.64.130.2",
@@ -226,7 +186,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "💜VIVO [SSL 9]",
+      "Name": "💜VIVO [SSL 7]",
       "FLAG": "vivo",
       "Payload": "GET wss://checkout.mediafire.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "checkout.mediafire.com",
@@ -236,7 +196,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "💜VIVO [SSL 10]",
+      "Name": "💜VIVO [SSL 8]",
       "FLAG": "vivo",
       "Payload": "GET wss://onepiece.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "onepiece.com",
