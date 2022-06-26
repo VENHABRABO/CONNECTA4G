@@ -1,6 +1,6 @@
 {
-  "Version": "7.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 7.0 novas para todas as operadoras",
+  "Version": "8.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 8.0,adicionado modo ssl para claro controle e flex",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -24,7 +24,7 @@
       "Name": "SERVIDOR BR BRABO VIA IP",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "209.14.136.143",
+      "ServerIP": "144.22.249.224",
       "CheckUser": "http://144.22.249.224:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
