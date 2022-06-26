@@ -223,7 +223,7 @@
       "SNI": "m.twitter.com",
       "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Ssl"
    },
     {
