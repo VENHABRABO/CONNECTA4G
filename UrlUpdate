@@ -1,5 +1,5 @@
 {
-  "Version": "5.0",
+  "Version": "6.0",
   "ReleaseNotes": "@VEM_BRABO\nconfig 5.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -201,6 +201,16 @@
       "Payload": "GET wss://onepiece.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "onepiece.com",
       "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "🔴CLARO FLEX",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "209.14.136.143",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
