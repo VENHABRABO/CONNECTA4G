@@ -1,6 +1,6 @@
 {
-  "Version": "6.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 5.0 novas para todas as operadoras",
+  "Version": "7.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 7.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -10,10 +10,21 @@
   "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SERVIDOR BR BRABO",
+      "Name": "SERVIDOR BR BRABO DOMÍNIO",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
+      "CheckUser": "http://144.22.249.224:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR BR BRABO VIA IP",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "209.14.136.143",
       "CheckUser": "http://144.22.249.224:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -210,10 +221,10 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
-      "TlsIP": "209.14.136.143",
+      "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Info": "Ssl"
    },
     {
       "Name": "🔴CLARO",
