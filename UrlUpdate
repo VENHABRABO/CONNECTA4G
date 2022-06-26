@@ -1,6 +1,6 @@
 {
-  "Version": "8.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 8.0,adicionado modo ssl para claro controle e flex",
+  "Version": "9.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 9.0,adicionado modo ssl para claro controle e flex",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -217,10 +217,20 @@
       "Info": "Tlsws"
    },
    {
-      "Name": "🔴CLARO FLEX",
+      "Name": "🔴CLARO FLEX T",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+{
+      "Name": "🔴CLARO FLEX W",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
