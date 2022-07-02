@@ -13,7 +13,7 @@
       "Name": "SERVIDOR CA VIA DOMÍNIO",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "och.atecubanos.tk",
+      "ServerIP": "meupau.atecubanos.tk",
       "CheckUser": "http://15.235.33.242:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
