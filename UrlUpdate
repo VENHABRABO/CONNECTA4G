@@ -1,6 +1,6 @@
 {
   "Version": "2.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 10.0,adicionado modo ssl para claro controle e flex",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 2.0,adicionado modo ssl para claro controle e flex",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -10,22 +10,22 @@
   "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SERVIDOR BR BRABO DOMÍNIO",
+      "Name": "SERVIDOR CA VIA DOMÍNIO",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
-      "CheckUser": "http://144.22.249.224:5454/checkUser",
+      "CheckUser": "http://15.235.33.242:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR BR BRABO VIA IP",
+      "Name": "SERVIDOR CA VIA IP (PARA CLARO FLEX)",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "144.22.249.224",
-      "CheckUser": "http://144.22.249.224:5454/checkUser",
+      "ServerIP": "15.235.33.242",
+      "CheckUser": "http://15.235.33.242:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
