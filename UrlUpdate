@@ -1,6 +1,6 @@
 {
-  "Version": "9.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 9.0,adicionado modo ssl para claro controle e flex",
+  "Version": "10.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 10.0,adicionado modo ssl para claro controle e flex",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -132,6 +132,16 @@
       "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.alura.com.br",
       "TlsIP": "172.67.188.168",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "💚VIVO ¹ [SSL] TESTE",
+      "FLAG": "vivo",
+      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
