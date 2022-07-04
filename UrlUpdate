@@ -1,6 +1,6 @@
 {
-  "Version": "2.0",
-  "ReleaseNotes": "@VEM_BRABO - update vivo pré pago funcional e vivo easy funcional",
+  "Version": "3.0",
+  "ReleaseNotes": " 3.0 @VEM_BRABO - update vivo pré pago funcional e vivo easy funcional",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -92,6 +92,16 @@
       "Payload": "GET wss://www.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "www.alura.com.br",
       "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "🟣 VIVO PRE PAGO 4 🟣",
+      "FLAG": "vivo",
+      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "172.67.165.43",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
