@@ -1,6 +1,6 @@
 {
   "Version": "2.0",
-  "ReleaseNotes": "NOVOs TERMOS DE USO NA ABA ESQUERDA 2.0 @VEM_BRABO - update vivo pré pago funcional e vivo easy funcional",
+  "ReleaseNotes": "NOVOss TERMOS DE USO NA ABA ESQUERDA 2.0 @VEM_BRABO - update vivo pré pago funcional e vivo easy funcional",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -155,6 +155,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
    {
 "Name": "🟣VIVO [ DDD 11,31,33,34,42,51,62,81,92]",
 "FLAG": "vivo.png",
